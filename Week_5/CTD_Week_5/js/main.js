@@ -1,8 +1,8 @@
-let poop = [1, "buffalo", 2, "buffalo", 3, "buffalo", 4, "buffalo", "more", "buffalo"]
+let santas = [1, "reindeer", 2, "reindeer", 3, "reindeer", 4, "reindeer", "more", "reindeer"]
 
 function joinWords(arr){
-    return arr.join("");
+    return arr.join(" ");
 }
 
 
-console.log(joinWords(poop));
+console.log(joinWords(santas));
