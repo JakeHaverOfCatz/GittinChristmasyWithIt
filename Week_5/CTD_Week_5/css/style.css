@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  width: 50%;
+  margin: 5px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-image: url("../img/santaBG.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(1, 4, 10);
+}
+
+h1{
+  color: rgb(0, 99, 23);
+  padding-top: 400px;
+  text-shadow: #ffcc00 1px 0 2px;
+}
+
+h2{
+  color: rgb(213, 0, 0);
+  text-shadow: #ffcc00 1px 0 2px;
+  font-style: italic;
+}
+
+p{
+  color: rgb(136, 209, 136);
+}
