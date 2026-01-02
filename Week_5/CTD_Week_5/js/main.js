@@ -6,3 +6,5 @@ function joinWords(arr){
 
 
 console.log(joinWords(santas));
+
+alert("Santa Is On Vacation, Please Leave A Message After The Bleep. ::Bleep::");
